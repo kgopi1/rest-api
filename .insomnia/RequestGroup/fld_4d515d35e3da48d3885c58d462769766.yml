@@ -12,7 +12,7 @@ environment:
   pipelineId: "38"
   apiversion: "7.0"
   branch: refs/heads/main
-  token: qfnalyln45abswiqhhndmfc5jtwhyf6a655jnedttzmwkyt7zpaa
+  token: ""
 environmentPropertyOrder:
   "&":
     - AZDO_URL
