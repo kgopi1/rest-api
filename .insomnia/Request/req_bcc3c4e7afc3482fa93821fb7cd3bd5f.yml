@@ -1,0 +1,28 @@
+_id: req_bcc3c4e7afc3482fa93821fb7cd3bd5f
+type: Request
+parentId: fld_bc9f927e7078436c9d14168cbb7b7f93
+modified: 1703256348428
+created: 1703256336319
+url: https://hooks.slack.com/services/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
+name: Slack-Webhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"text": "Alert from Insomnia"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
