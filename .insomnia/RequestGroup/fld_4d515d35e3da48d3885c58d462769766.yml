@@ -1,0 +1,25 @@
+_id: fld_4d515d35e3da48d3885c58d462769766
+type: RequestGroup
+parentId: wrk_bdec428d57364f05858a82fa6d86f101
+modified: 1703255608777
+created: 1703255608777
+name: AZDO
+description: ""
+environment:
+  AZDO_URL: dev.azure.com
+  organization: KGDL02
+  project: PP1
+  pipelineId: "38"
+  apiversion: "7.0"
+  branch: refs/heads/main
+  token: qfnalyln45abswiqhhndmfc5jtwhyf6a655jnedttzmwkyt7zpaa
+environmentPropertyOrder:
+  "&":
+    - AZDO_URL
+    - organization
+    - project
+    - pipelineId
+    - apiversion
+    - branch
+    - token
+metaSortKey: -1000000000
