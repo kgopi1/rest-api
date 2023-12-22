@@ -1,0 +1,26 @@
+_id: req_6a7c48b5dd374bc1ba08db3d9c4305c4
+type: Request
+parentId: fld_4d515d35e3da48d3885c58d462769766
+modified: 1703255608786
+created: 1703255608786
+url: https://dev.azure.com/KGDL02/PP1/_apis/pipelines/36/runs?api-version=7.0
+name: Get-Pipeline
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: "{{ _.token }}"
+metaSortKey: -1703240083522
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
