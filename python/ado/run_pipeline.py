@@ -17,5 +17,5 @@ headers = {
 }
 
 response = requests.request("POST", url, json=payload, headers=headers, params=querystring)
-
+# print response 
 print(response.text)
