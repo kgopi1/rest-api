@@ -3,8 +3,10 @@ import base64
 from dotenv import load_dotenv
 import os
 
-url = "https://dev.azure.com/KGDL02/PP1/_apis/pipelines/38/runs"
+
 load_dotenv()
+
+#url='https://dev.azure.com/{ORG}/{PRJ}/_apis/pipelines/{PID}/runs'
 
 
 def encode_pat():
@@ -18,7 +20,6 @@ def encode_pat():
 def run_pipeline(pat):
     querystring = {"api-version":"7.0"}
     authorization_headers=f'Basic {pat}'
-    print(authorization_headers)
     payload = {
         "resources": {"repositories": {"self": {"refName": "refs/heads/main"}}},
         "templateParameters": {
@@ -29,7 +30,8 @@ def run_pipeline(pat):
     headers = {
         "Content-Type": "application/json",
        "Authorization": f"{authorization_headers}"
-    }   
+    }  
+    url = os.getenv("URL") 
     response = requests.request("POST", url, json=payload, headers=headers, params=querystring)
     print(response.text)
 
