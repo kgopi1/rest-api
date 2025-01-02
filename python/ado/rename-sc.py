@@ -31,7 +31,7 @@ def share_service_connection(endpointId):
             "description": "PipelineDemo-ServiceConnection",
             "name": "ARMSCWIPP1",
             "projectReference": {
-                "id": "fea40019-5244-4f3d-95df-d90c51fa9659",
+                "id": "fea40019--xx",
                 "name": "PipelineDemo"
             }
         },
@@ -39,7 +39,7 @@ def share_service_connection(endpointId):
             "description": "Agile-ServiceConnection",
             "name": "AgileServiceConnection",
             "projectReference": {
-                "id": "0104c47c-ebeb-4280-9c98-13c8fb18672b",
+                "id": "0104c47c-EE",
                 "name": "Project1-Agile"
             }
         }
